@@ -1,6 +1,6 @@
 let minDiam = 10;
-let maxDiam = 70;
-let gridstep = 70;
+let maxDiam = 60;
+let gridstep = 80;
 let offsetRange = gridstep - maxDiam;
 
 

@@ -25,7 +25,7 @@ I set xOffset and yOffset as global variables at first and it didn't work. Then 
 
 The end result does this by having multiple circles of different sizes, non-overlapping shapes, and not straight lines.
 
-![DT7zeR.png](https://imgpile.com/images/DT7zeR.png)
+![DT7FCC.png](https://imgpile.com/images/DT7FCC.png)
 
 Although I think I accomplished the required three points, my circle still looks regular and not as irregular as in the example. I figured out that when offsetRange is less than or equal to zero it's not completely untenable, and in some cases the circles can still be out of contact with each other, but that's completely ruled out in my work. 
 
