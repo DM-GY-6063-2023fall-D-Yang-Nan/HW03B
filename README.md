@@ -1,60 +1,34 @@
-# p5.js Template
+# HW03B
+## 1.I made circles of the same size and spaced apart.
 
-This is a README file that can be used to describe and document your assignment.
+![DT7M9M.png](https://imgpile.com/images/DT7M9M.png)
 
-Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
+## 2.Changing the size of a circle.
 
----
----
+I give the diameter of the circles a random number so that each circle looks differently sized.
 
-# Heading1
-## Heading2
-### Heading3
-#### Heading4
-##### Heading5
-###### Heading6
+![DT7J84.png](https://imgpile.com/images/DT7J84.png)
 
-**bold text**
+## 3.Changing the position of the circle.
 
-*italicized text*
+I want to give a random number to the position of the circles, but not have the circles touching each other, the idea is to have each circle stay in its own grid, with the maximum diameter not exceeding the grid size, and each circle is free to move around in its own grid.
 
-~~strikethrough text~~
+![DT7lIh.jpg](https://imgpile.com/images/DT7lIh.jpg)
 
-Ordered List:
-1. First item
-2. Second item
-3. Third item
+![DT7mKE.jpg](https://imgpile.com/images/DT7mKE.jpg)
 
-Unordered List:
-- First item
-- Second item
-- Third item
+![DT7r2r.jpg](https://imgpile.com/images/DT7r2r.jpg)
 
-`short code block`
+I set xOffset and yOffset as global variables at first and it didn't work. Then I moved them into a for loop and it worked, I'm still a little confused as to why global variables don't work.
 
-```
-extended code block
-fun() {
-  return 0
-}
-```
+![DT7q5W.png](https://imgpile.com/images/DT7q5W.png)
 
-Link:  
-[linked text](https://www.example.com)
+The end result does this by having multiple circles of different sizes, non-overlapping shapes, and not straight lines.
 
+![DT7zeR.png](https://imgpile.com/images/DT7zeR.png)
 
-Image with url:  
-![image description](https://dm-gy-6063-2023f-d.github.io/assets/homework/02/clark-espaco-modulado-00.jpg)
+Although I think I accomplished the required three points, my circle still looks regular and not as irregular as in the example. I figured out that when offsetRange is less than or equal to zero it's not completely untenable, and in some cases the circles can still be out of contact with each other, but that's completely ruled out in my work. 
 
+![DT72cP.jpg](https://imgpile.com/images/DT72cP.jpg)
 
-Image on repo:  
-![image description](./file-name.jpg)
-
-
-To start a new line, add two spaces at the end of a line, like this:  
-this is a new line.
-
-
-To start a new paragraph, leave an empty line between two lines of text.
-
-This is a new paragraph.
+If you want to count both of the above and the circles don't collide with each other, I can only think of using collision detection, but I haven't learned that part yet, maybe you have a better idea? Looking forward to the teacher can email me or reply to my question, thanks!
